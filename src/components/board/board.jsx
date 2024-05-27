@@ -25,7 +25,7 @@ export function Board() {
     : `Кто ходит: ${xIsNext ? "X" : "O"}`;
   return (
     <>
-      <div className="status">{status}</div>
+      <div style={{ color: `${winner ? '#eb0c0c' : 'white'}` }} className="status">{status}</div>
       <div className="board-row">
         <Square
           value={squares[0]}
