@@ -1,9 +1,8 @@
-import { Board } from '../board/board';
-
+import { Board } from '../board/board'
 export function App() {
-return (
-  <>
-    <Board />
-  </>
-)
+  return (
+    <>
+      <Board />
+    </>
+  );
 }
