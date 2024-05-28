@@ -76,6 +76,11 @@ body {
   padding: 10px 20px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  transition: all .5s;
+}
+
+.title .restartBtn:hover {
+  box-shadow: inset -2px -2px 15px #eb0c0c;
 }
 
 .square {
