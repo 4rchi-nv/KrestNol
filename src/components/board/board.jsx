@@ -25,7 +25,10 @@ export function Board() {
     : `Кто ходит: ${xIsNext ? "X" : "O"}`;
   return (
     <>
-      <div style={{ color: `${winner ? '#eb0c0c' : 'white'}` }} className="status">{status}</div>
+      <div className="title">
+        <div style={{ color: `${winner ? '#eb0c0c' : 'white'}` }} className="status">{status}</div>
+        <button onClick={reloadHandler} className="restartBtn">Начать заново</button>
+      </div>
       <div className="board-row">
         <Square
           value={squares[0]}
@@ -104,4 +107,8 @@ function calculateWinner(squares) {
     }
   }
   return null;
+}
+
+function reloadHandler() {
+  window.location.reload();
 }

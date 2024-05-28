@@ -59,6 +59,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.title .restartBtn {
+  background: transparent;  
+  box-shadow: 3px 3px 25px #eb0c0c;
+  text-shadow: 3px 3px 25px #eb0c0c;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
 
 .square {
   box-shadow: 3px 3px 25px #eb0c0c;
@@ -99,7 +116,6 @@ body {
 }
 
 .status {
-  padding-bottom: 30px;
   font-size: 40px;
   color: #fff;
   text-shadow: 3px 3px 5px #eb0c0c;
