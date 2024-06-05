@@ -1,2 +1,2 @@
 # KrestNol
-TicTacToe Game in React
+TicTacToe Game in React with dark theme
